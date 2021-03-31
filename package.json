@@ -1,0 +1,33 @@
+{
+  "name": "swimm-theme",
+  "displayName": "swimm-theme",
+  "description": "Sync Teams with Code. ",
+  "publisher": "Swimm",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "icon": "./images/logo_250.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Swimm theme",
+    "dark theme",
+    "vscode",
+    "blue",
+    "caffee",
+    "wave",
+    "water",
+    "float"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "swimm-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/swimm-theme-color-theme.json"
+      }
+    ]
+  }
+}
